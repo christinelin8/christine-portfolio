@@ -71,23 +71,12 @@ body {
 }
 
 .me-snippet-container {
+    width: 100%;
     display: flex;
 }
 
-.about-me-title {
-    display: flex;
-}
-
-.purple-flower {
-    width: 2%;
-    height: 50px;
-}
-
-.about-me-title h2 {
-    font-family: 'Raleway', sans-serif; 
-}
-
-.about-me-content h1, p {
+.about-me-content {
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
+    line-height: 1.5;
 }
