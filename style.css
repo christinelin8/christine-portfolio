@@ -95,11 +95,11 @@ body {
 }
 
 .about-me-content {
-    flex: 0 0 28%;
+    flex: 0 0 36%; 
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 1.2em;
-    line-height: 1.5;
+    line-height: 2;
     text-align: justify;
 
     margin-left: 5%; 
@@ -143,11 +143,13 @@ body {
 }
 
 .project-content-summary h3 {
-    font-size: 1.3rem;
+    margin-top: 1%;
+    font-size: 1.5rem;
 }
 
 .project-content-summary p {
     line-height: 2;
+    font-size: 1em;
 }
 
 .project-content-summary button {
@@ -155,7 +157,7 @@ body {
     height: 35px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: .9em;
+    font-size: 1em;
 
     margin-right: 2%;
 
@@ -164,6 +166,10 @@ body {
     border-radius: 6px;
     color: white;
     background-color: #f5bcbb;
+}
+
+.project-content-summary button:hover {
+    text-decoration: underline 2px;
 }
 
 .contact-me-container {
