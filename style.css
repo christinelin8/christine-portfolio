@@ -116,7 +116,7 @@ body {
     flex-direction: column;
 
     padding-left: 25%;
-    padding-bottom: 15%;
+    padding-bottom: 7%;
 }
 
 .projects-title h2{
@@ -207,7 +207,7 @@ button.email-button {
 }
 
 .contact-me-content button:hover { 
-    background-color:rgb(235, 97, 97);
+    background-color:rgb(229, 143, 143);
 }
 
 .contact-me-content a {
