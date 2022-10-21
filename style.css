@@ -43,6 +43,11 @@ body {
     text-decoration: none;
 }
 
+.nav-links a:hover {
+    text-decoration: 2px underline;
+   
+}
+
 .header-container {
     display: flex;
     justify-content: center;
