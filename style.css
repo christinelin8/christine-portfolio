@@ -44,8 +44,7 @@ body {
 }
 
 .nav-links a:hover {
-    text-decoration: 2px underline;
-   
+    text-decoration: 2px underline; 
 }
 
 .header-container {
