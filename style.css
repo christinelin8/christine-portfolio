@@ -47,11 +47,15 @@ body {
     text-decoration: 2px underline; 
 }
 
+.hamburger {   /*displayed only in mobile versions*/
+    display: none;
+}
+
 .header-container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}   
 
 .header-content h1 {
     font-family: 'Raleway', sans-serif;
@@ -232,6 +236,7 @@ body {
 }
 
 .contact-me-content p {
+    text-align: center;
     font-size: 1.5em;
     padding-bottom: 3%;
 }
@@ -271,6 +276,25 @@ button.email-button {
 
 .footer-container h2 {
     font-size: 1em;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 425px) {
+    .header-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    .header-content h1{
+        font-size: 3.29rem;
+    }
+
+    .header-content p {
+        font-size: 27px;
+        width: 100%;
+    }
 }
 
 
